@@ -16,7 +16,9 @@
 
 Don't want to run Python scripts or download multi-gigabyte Wikipedia dumps? We've already parsed and built a ready-to-explore **21,000+ article universe** for you!
 
-1. **[Download `wikipedia-galaxy-vault.zip` (195 MB)](https://github.com/arsh240311/wikipedia-galaxy/releases/download/v1.0.0/wikipedia-galaxy-vault.zip)**
+> 📦 **For pre-built Obsidian Vaults, please refer to [Releases / Versions](https://github.com/arsh240311/wikipedia-galaxy/releases).**
+
+1. **[Download `wikipedia-galaxy-vault.zip` (195 MB)](https://github.com/arsh240311/wikipedia-galaxy/releases/download/v1.0.0/wikipedia-galaxy-vault.zip)** from the latest release.
 2. Unzip the archive.
 3. Open Obsidian -> click **"Open folder as vault"** -> select the unzipped folder.
 4. Press `Ctrl + G` (Graph View) to witness your personal 21,000-node Cosmic Nebula!
