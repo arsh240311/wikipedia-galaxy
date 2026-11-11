@@ -4,11 +4,26 @@
 
 ![Wikipedia Galaxy Preview](assets/galaxy_preview.jpg)
 
-**Wikipedia Galaxy** is an open-source data pipeline that transforms raw Wikimedia XML dumps (`.xml.bz2`) into a structured, hyperlinked offline Obsidian vault and a graph network ready for 3D exploration.
+[![Download Pre-built Vault](https://img.shields.io/badge/Download_Vault-Pre--built_21k_Notes_(195MB)-00e5ff?style=for-the-badge&logo=obsidian&logoColor=white)](https://github.com/arsh240311/wikipedia-galaxy/releases/download/v1.0.0/wikipedia-galaxy-vault.zip)
+[![GitHub Stars](https://img.shields.io/github/stars/arsh240311/wikipedia-galaxy?style=for-the-badge&color=eab308)](https://github.com/arsh240311/wikipedia-galaxy)
+[![License: MIT](https://img.shields.io/badge/License-MIT-00e676?style=for-the-badge)](LICENSE)
+
+**Wikipedia Galaxy** is an open-source data pipeline and ready-to-use knowledge universe that transforms raw Wikimedia XML dumps into an interconnected offline Obsidian vault with a pre-tuned 3D cosmic graph network.
 
 ---
 
-## ⚡ Features
+## ⚡ Instant Download (No Coding Required)
+
+Don't want to run Python scripts or download multi-gigabyte Wikipedia dumps? We've already parsed and built a ready-to-explore **21,000+ article universe** for you!
+
+1. **[Download `wikipedia-galaxy-vault.zip` (195 MB)](https://github.com/arsh240311/wikipedia-galaxy/releases/download/v1.0.0/wikipedia-galaxy-vault.zip)**
+2. Unzip the archive.
+3. Open Obsidian -> click **"Open folder as vault"** -> select the unzipped folder.
+4. Press `Ctrl + G` (Graph View) to witness your personal 21,000-node Cosmic Nebula!
+
+---
+
+## 🛠️ Features (For Builders & Hackers)
 
 - **🚀 Memory-Flat XML Streaming:** Streams gigabyte-scale `.xml.bz2` Wikipedia dumps using `iterparse` and `bz2file`. Memory stays flat regardless of dump size.
 - **🔗 Automatic `[[Wikilinks]]` Extraction:** Parses MediaWiki syntax via `mwparserfromhell`, extracts outgoing links, and linkifies core keyword occurrences into native Obsidian backlink syntax.
@@ -18,20 +33,11 @@
 
 ---
 
-## 📦 Requirements
+## 📦 Requirements & Pipeline
 
 ```bash
 pip install -r requirements.txt
 ```
-
-- Python 3.9+
-- `bz2file`
-- `mwparserfromhell`
-- [Obsidian](https://obsidian.md/) (for local graph visualization)
-
----
-
-## 🚀 Quickstart
 
 ### 1. Download a Wikipedia Dump Chunk
 Download any Wikimedia multistream article chunk (e.g. from [Wikimedia Dumps](https://dumps.wikimedia.org/enwiki/latest/)):
@@ -57,11 +63,6 @@ Run the streaming extractor:
 python build_galaxy.py
 ```
 
-### 4. Open in Obsidian
-1. Open Obsidian and select **"Open folder as vault"** -> choose `./vault`.
-2. Copy `templates/graph.json` into `./vault/.obsidian/graph.json` to activate the **Nebula Color Preset**.
-3. Press `Ctrl + G` to open the **Graph View** and explore your offline Wikipedia universe!
-
 ---
 
 ## 🎨 Nebula Color Palette Preset
@@ -81,6 +82,6 @@ python build_galaxy.py
 
 ## 📜 License
 
-MIT License. Free to use, fork, and gift to the world.
+MIT License. Free to use, fork, modify, and gift to the world.
 
 *"Nammalukku uthavaathathu mathavangaluku uthavatum."* — **OpenSource Aandavar** 🚀
