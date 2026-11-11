@@ -1,0 +1,21 @@
+# Wikipedia Raw Dumps & Large Data Files
+*.bz2
+*.xml
+*.csv
+*.tsv
+
+# Binary Executables
+*.exe
+*.dll
+
+# Gephi Project Cache
+*.gephi*
+
+# Generated Vault Content (Keep vault ignored in repo; generated locally)
+vault/
+
+# Python Virtual Environment & Cache
+__pycache__/
+*.pyc
+venv/
+.env

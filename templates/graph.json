@@ -1,0 +1,79 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:Physics_and_Space",
+      "color": {
+        "a": 1,
+        "rgb": 58879
+      }
+    },
+    {
+      "query": "path:Military_and_Ships",
+      "color": {
+        "a": 1,
+        "rgb": 16717636
+      }
+    },
+    {
+      "query": "path:History_and_Years",
+      "color": {
+        "a": 1,
+        "rgb": 16761856
+      }
+    },
+    {
+      "query": "path:Artificial_Intelligence_and_Technology",
+      "color": {
+        "a": 1,
+        "rgb": 59000
+      }
+    },
+    {
+      "query": "path:Biology_and_Medicine",
+      "color": {
+        "a": 1,
+        "rgb": 13959417
+      }
+    },
+    {
+      "query": "path:Mathematics_and_Logic",
+      "color": {
+        "a": 1,
+        "rgb": 4021246
+      }
+    },
+    {
+      "query": "path:Arts_Culture_and_People",
+      "color": {
+        "a": 1,
+        "rgb": 16728193
+      }
+    },
+    {
+      "query": "path:General_and_Reference",
+      "color": {
+        "a": 1,
+        "rgb": 6619098
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.25,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 12,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.0328075196619405,
+  "close": false
+}
