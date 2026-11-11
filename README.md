@@ -82,6 +82,4 @@ python build_galaxy.py
 
 ## 📜 License
 
-MIT License. Free to use, fork, modify, and gift to the world.
-
-*"Nammalukku uthavaathathu mathavangaluku uthavatum."* — **OpenSource Aandavar** 🚀
+MIT License. Free to use, fork, and modify.
